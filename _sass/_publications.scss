@@ -81,9 +81,10 @@
           }
         }
 
-        > em {
-          border-bottom: 1px solid;
+        > em,
+        > strong.self-author {
           font-style: normal;
+          font-weight: 700;
         }
 
         > span.more-authors {
