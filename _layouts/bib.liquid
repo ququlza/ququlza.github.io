@@ -152,7 +152,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% elsif entry.type == 'misc' and entry.note %}
@@ -202,6 +202,9 @@
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
+      {% if entry.url and entry.url contains 'openreview.net' %}
+        <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">Openreview</a>
+      {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
@@ -244,7 +247,7 @@
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
       {% if entry.project_page %}
-        <a href="{{ entry.project_page }}" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+        <a href="{{ entry.project_page }}" class="btn btn-sm z-depth-0" role="button">Demo</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
