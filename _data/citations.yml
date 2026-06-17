@@ -1,7 +1,7 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-17'
 papers:
-  R-qDsuAAAAAJ:IjCSPb-OGe4C:
+  R-qDsuAAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
     title: Geometry-Correct Diffusion Posterior Sampling with Denoiser-Pullback Curvature Guidance and Manifold-Aligned Damping
     year: '2026'
