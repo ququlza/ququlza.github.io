@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in the Department of Electrical and Computer Engineering at Inha University, advised by [Hongki Lim](https://scholar.google.com/citations?user=YC2bov0AAAAJ&hl=en). My research interests include generative models and inverse problems, and I am currently working on multimodal generative modeling.
+I am a PhD student in the Department of Electrical and Computer Engineering at Inha University, advised by [Hongki Lim](https://scholar.google.com/citations?user=YC2bov0AAAAJ&hl=en). My research interests include generative models and inverse problems, and I am currently working on generative inverse design.
 
 **Previously:** I obtained my Bachelor's degree in Electronic Engineering and my Master's degree in Electrical and Computer Engineering, both from Inha University.
